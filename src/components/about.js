@@ -1,7 +1,9 @@
+//MODULE
 import "../css/about.css";
 
 function About() {
   return (
+    //HTML
     <section className="about">
       <h2>ABOUT SECTION</h2>
       <p>
@@ -11,4 +13,5 @@ function About() {
   );
 }
 
+//EXPORT
 export default About;
