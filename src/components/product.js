@@ -1,6 +1,8 @@
+//CSS IMPORTS
 import "../css/products.css";
 
 function Products() {
+  //AN ARRAY OF OBJECTS
   const productList = [
     {
       name: "Lunar Rover",
@@ -20,6 +22,7 @@ function Products() {
     <section className="products">
       <h2>PRODUCT SECTION</h2>
       <div className="product-list">
+    //DISPLAYIN THE ARRAY VALUES WIITH .MAP
         {productList.map((product, index) => (
           <div className="product-card" key={index}>
             <h3>{product.name}</h3>
