@@ -1,26 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import About from'./components/about.js';
+import Products from'./components/product.js';
+import Home from './components/hero.js';
+import Services from './components/services.js'
 
-function App() {
-  return (
-    <div className="App">
-      <p className="paragraph">WELCOME TO REACT </p>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+ function App(){
+return(
+  <div>
+    <Home />
+    <About />
+    <Products></Products>
+    <Services />
+  </div>
+)
 }
 
 export default App;
